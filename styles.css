@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+body {
+    font-family: 'DotGothic16', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 10vh 10vw;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+.centered {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.centered-paragraphs {
+    display: flex;
+    justify-content: center;
+}
+
+.timestamp {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+.bibliography {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.bibliography h3 {
+    font-weight: bold;
+}
+
+.bibliography ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bibliography li {
+    margin-bottom: 5px;
+}
